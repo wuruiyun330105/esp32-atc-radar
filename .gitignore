@@ -9,7 +9,7 @@ build-gcc/
 third_party/
 
 # 微雪官方库（用 git clone 拉，见 docs/本地打开工程.md）
-vendor/
+/vendor/
 
 # ★ 本地私密配置：含真实 Key / WiFi 密码，绝不提交
 app_config.json
