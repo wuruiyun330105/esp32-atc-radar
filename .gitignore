@@ -1,0 +1,34 @@
+# 编译产物
+build/
+build-gcc/
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# 第三方源码（体积大，用 scripts/setup_lvgl.sh 下载）
+third_party/
+
+# 微雪官方库（用 git clone 拉，见 docs/本地打开工程.md）
+vendor/
+
+# ★ 本地私密配置：含真实 Key / WiFi 密码，绝不提交
+app_config.json
+app_config.local.json
+src/net/atc_ref_local.h        # 个人音色样本
+*.wav
+*.mp3
+
+# 调试中间产物
+*.log
+*.bmp
+*.raw
+snap_*
+ui_*.html
+ui_*.png
+main_pc.c.bak-*
+fix_extern_c.py
+tools/_*.py
+
+# 系统文件
+.DS_Store
+*.swp
